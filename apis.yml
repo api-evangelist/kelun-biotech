@@ -1,8 +1,25 @@
 aid: kelun-biotech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kelun-biotech.png
 name: Kelun-Biotech
-description: 'Kelun-Biotech is a company surfaced as a portfolio company of idg-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd. (Kelun Botai, HKEX: 6990), a Chengdu-based
+  subsidiary of Sichuan Kelun Pharmaceutical (SZSE: 002422) established in 2016, is an innovative biopharmaceutical
+  company focused on the research, development, manufacturing, and commercialization of novel drugs. It
+  specializes in antibody-drug conjugates (ADCs) and other conjugated therapies across both large-molecule
+  and small-molecule modalities, targeting oncology and autoimmune diseases. The company operates several
+  core drug-discovery platforms and maintains a pipeline of 30+ candidates with multiple approved and
+  clinical-stage programs. It was surfaced as a portfolio company of idg-capital and added to the API
+  Evangelist network; as a pharmaceutical manufacturer it publishes no public developer or API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/kelun-biotech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Pharmaceuticals
+- Biotechnology
+- Oncology
+- Drug Development
+- Antibody-Drug Conjugate
+- China
 apis: []
+common:
+- type: Website
+  url: https://www.kelun-biotech.com
+- type: Careers
+  url: http://kelunbotai.zhiye.com/
+- type: InvestorRelations
+  url: https://www.kelun-biotech.com/news.aspx?mid=157
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
